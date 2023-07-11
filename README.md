@@ -70,4 +70,4 @@ Snort is a powerful and free Intrusion Detection System (IDS) that helps protect
 - Exploring additional Snort plugins and integrations.
 
 ## Conclusion <a name="conclusion"></a>
-By following this comprehensive guide, you have successfully installed and configured Snort IPS on your Windows operating system. Snort will help safeguard your network by detecting and alerting you to potential security threats. Regularly update Snort rules to ensure optimal protection. Stay vigilant and maintain the security of your network.
+By following this comprehensive guide, you have successfully installed and configured Snort IPS on your Windows operating system. Snort will help safeguard your network by detecting and alerting you to potential security threats. Regularly update Snort rules to ensure optimal protection. Stay vigilant and maintain the security of your network. Please Find all the needed packages and installers in the files attached with the repository 
