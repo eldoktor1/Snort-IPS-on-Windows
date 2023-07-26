@@ -24,11 +24,15 @@ Snort is a powerful and free Intrusion Detection System (IDS) that helps protect
 ### Step 1: Downloading Snort <a name="step-1-downloading-snort"></a>
 📥 Begin by visiting the official [Snort website](https://www.snort.org/) and navigate to the Windows tab.
 🔽 Download the Snort executable (`exe`) file that matches your Windows version.
+![image](https://github.com/eldoktor1/Snort-IPS-on-Windows/assets/135300290/25980e07-6afb-450c-a8d9-99a71aaffe92)
+
 
 ### Step 2: Obtaining Snort Rules <a name="step-2-obtaining-snort-rules"></a>
 🔐 Create an account on the Snort website if you don't have one already.
 💡 Choose between the community rules (freely available) or registered user rules (paid subscription required).
 📥 Download the rules that suit your needs to enhance Snort's detection capabilities.
+![image](https://github.com/eldoktor1/Snort-IPS-on-Windows/assets/135300290/99667f8c-8108-46cb-a68b-0816490d7b4f)
+
 
 ## Installation <a name="installation"></a>
 
@@ -46,12 +50,15 @@ Snort is a powerful and free Intrusion Detection System (IDS) that helps protect
    - Set the `home_net` variable to define your local network's IP address range.
    - Adjust file paths by replacing forward slashes (`/`) with backslashes (`\`) to match your specific Windows directory structure.
    - Uncomment and modify any other settings as required for your network environment.
+![image](https://github.com/eldoktor1/Snort-IPS-on-Windows/assets/135300290/312e536e-b248-474e-bb5e-888308aa9dfe)
 
 ### Step 5: Whitelist and Blacklist Setup <a name="step-5-whitelist-and-blacklist-setup"></a>
 📝 Create the whitelist and blacklist files within the Snort rules directory.
 🔒 Whitelist: Create a file named `whitelist.rules`.
 🚫 Blacklist: Create a file named `blacklist.rules`.
 🔍 Add IP addresses to the whitelist and blacklist files to specify exceptions or blocked addresses.
+![image](https://github.com/eldoktor1/Snort-IPS-on-Windows/assets/135300290/a4d48c55-944c-4aff-ace5-773f1f6aa0af)
+
 
 ## Testing and Verification <a name="testing-and-verification"></a>
 
@@ -61,6 +68,8 @@ Snort is a powerful and free Intrusion Detection System (IDS) that helps protect
 📝 Execute the command `snort -i <interface> -c <path_to_snort.conf> -T`.
 ✅ Observe the output to confirm that Snort successfully validates the configuration.
 🔁 If any errors occur, review the configuration and resolve any issues before proceeding.
+![image](https://github.com/eldoktor1/Snort-IPS-on-Windows/assets/135300290/f9dd54c1-03bc-49e4-8c7c-ebf4aa585df0)
+
 
 ## Advanced Configuration <a name="advanced-configuration"></a>
 ⚙️ For more advanced configurations and customization options, consider exploring:
